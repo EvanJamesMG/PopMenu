@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dialog">
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowFrame">@null</item>&lt;!&ndash;边框&ndash;&gt;-->
+        <!--<item name="android:windowIsFloating">true</item>&lt;!&ndash;是否浮现在activity之上&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:windowIsTranslucent">true</item>&lt;!&ndash;半透明&ndash;&gt;&ndash;&gt;-->
+        <!--<item name="android:windowNoTitle">true</item>&lt;!&ndash;无标题&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:windowBackground">@color/transparent</item>&lt;!&ndash;背景透明&ndash;&gt;&ndash;&gt;-->
+        <!--<item name="android:backgroundDimEnabled">false</item>&lt;!&ndash;模糊&ndash;&gt;-->
+        <!--<item name="android:windowFullscreen">true</item> &lt;!&ndash;全屏显示&ndash;&gt;-->
+
+    </style>
+
+</resources>

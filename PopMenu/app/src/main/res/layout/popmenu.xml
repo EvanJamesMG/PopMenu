@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!--中间的菜单栏 包含六个button-->
+    <RelativeLayout
+        android:id="@+id/menuparent"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/twitter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/music"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/music"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/twitter"
+            android:layout_marginTop="30dp"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/Gmail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/gmail"
+            android:layout_toLeftOf="@+id/twitter"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="45dp"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/Line"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/line"
+            android:layout_toLeftOf="@+id/music"
+            android:layout_marginRight="45dp"
+            android:layout_below="@+id/Gmail"
+            android:layout_marginTop="30dp"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/Linkedin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/linkedin"
+            android:layout_toRightOf="@+id/twitter"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="45dp"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/Guardian"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/guardian"
+            android:layout_below="@+id/Linkedin"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/music"
+            android:layout_marginLeft="45dp"
+            android:visibility="invisible"/>
+        <!--底部的菜单栏-->
+        <RelativeLayout
+            android:id="@+id/footerview"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true">
+            <ImageView
+                android:id="@+id/SVGbtn"
+                android:layout_centerInParent="true"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/quitbtn" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
